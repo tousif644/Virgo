@@ -6,6 +6,7 @@ import Hero2 from './Components/Hero2';
 import CompactSection from './Components/CompactSection';
 import Abstract from './Components/Abstract';
 import Geometry from './Components/Geometry';
+import BeSmarter from './Components/BeSmarter';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CompactSection></CompactSection>
       <Abstract></Abstract>
       <Geometry></Geometry>
+      <BeSmarter></BeSmarter>
     </div>
   );
 }

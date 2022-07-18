@@ -18,6 +18,48 @@ li {
 .lorem {
     font-family: "Playfair Display";
 }
+
 .inter {
     font-family: "Inter";
+}
+.joinButton{
+    transition: 3s;
+}
+
+
+.button-container{
+    position: relative;
+    width: 390px;
+    height: 55px;
+    
+}
+.the-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.the-button:hover{
+    transform: rotateY(180deg);
+}
+.the-front-button{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    background-color: #252525;
+    padding-left: 3px;
+}
+
+.the-back-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    background-color: blue;
+    transform: rotateY(180deg);
+    padding-left: 4px;
 }

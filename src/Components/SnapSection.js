@@ -13,7 +13,7 @@ const SnapSection = () => {
         <div>
             <img src={image} alt="" />
 
-            <div className="w-6/12 mx-auto my-12 inter text-xl text-[#323639]">
+            <div className="w-6/12 mx-auto my-12 inter text-2xl text-[#323639]">
                 <div>
                     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odit ea aliquid reiciendis eum quo eligendi sapiente molestiae recusandae autem dolore cupiditate dicta enim illo, dolorem accusamus doloremque.
                     </h1>

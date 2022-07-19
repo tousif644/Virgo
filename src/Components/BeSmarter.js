@@ -1,4 +1,6 @@
 import React from 'react';
+import BeSmarterArticle from './BeSmarterArticle';
+import BeSmarterLoop from './BeSmarterLoop';
 
 const BeSmarter = () => {
     return (
@@ -13,14 +15,12 @@ const BeSmarter = () => {
                         </div>
 
                         <div className='the-back-button'>
-                        <a href="#" className='text-5xl lorem font-bold'>Join Our Club ➡</a>
+                            <a href="#" className='text-5xl lorem font-bold'>Join Our Club ➡</a>
                         </div>
                     </div></div>
             </div>
+            <BeSmarterLoop></BeSmarterLoop>
 
-            <div>
-                <div className='list_v2_Bullet'>1</div>
-            </div>
         </div>
     );
 };
